@@ -127,9 +127,13 @@ List of used resources for your website (text, images, snippets of code, project
 #### Media
 
 - Images found through [Pexels](http://www.pexels.com).
+  - MindEase Logo - Photo by Tara Winstead: https://www.pexels.com/photo/illustration-of-a-head-and-butterflies-around-the-scalp-and-inside-the-brain-8849272/
 
 #### AI Use
 
-- Removal of backgrounds on logo image.
+- Removal of background on logo image.
+- Finding fonts that fit the project.
+-
+- No AI used for image creation or code snippets.
 
 #### Acknowledgement
