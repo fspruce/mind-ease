@@ -47,8 +47,8 @@ Google fonts have been chosen to keep to a warm and inviting aesthetic, while ma
 
 ### Colour Scheme
 
-![Color palette swatch showing the colors used throughout the site](assets/images/readme/Colour%20Palette%20Swatch.png)
-![Mock-up design on how the colors chosen will work within the site](assets/images/readme/Colour%20Palette.png)
+![Color palette swatch showing the colors used throughout the site](documentation/images/Colour%20Palette%20Swatch.png)
+![Mock-up design on how the colors chosen will work within the site](documentation/images/Colour%20Palette.png)
 
 ## Features:
 
