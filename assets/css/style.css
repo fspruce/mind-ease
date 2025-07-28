@@ -8,6 +8,7 @@
 #CFA0D9; Wisteria
 #DDBEEE; Thistle
 #FCF5F2; Snow
+#D4CBC6; Timberwolf
 */
 
 /* Fonts */
@@ -25,8 +26,9 @@
   --lead-color: #961C17; /* Carmine */
   --text-color: #2F0B09; /* Black Bean */
   --highlight-color: #FCF5F2; /* Snow */
-  --secondary-highlight-color: #DDBEEE; /* Thistle */
-  --tertiary-highlight-color: #CFA0D9; /* Wisteria */
+  --secondary-highlight-color: #bbb2ad; /* Timberwolf */
+  --button-primary-color: #DDBEEE; /* Thistle */
+  --button-secondary-color: #CFA0D9; /* Wisteria */
   --background-color: #DFF3E4; /* Honeydew */
 }
 
@@ -48,7 +50,27 @@ h3 {
 }
 
 /* Navigation */
-
+.navbar {
+  background-color: var(--secondary-color);
+  font-size: 1.1rem;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+}
+.navbar-brand {
+  color: var(--highlight-color);
+  font-family: var(--logo-font);
+  font-size: 1.2rem;;
+}
+.nav-link, .navbar-toggler {
+  color: var(--highlight-color);
+  border-color: var(--highlight-color);
+}
+.navbar-nav .nav-link.active, 
+.nav-link:focus, 
+.nav-link:hover, 
+.navbar-brand:focus, 
+.navbar-brand:hover{
+  color: var(--secondary-highlight-color);
+}
 /* Header */
 
 /* Main Content */

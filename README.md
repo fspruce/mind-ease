@@ -145,7 +145,8 @@ The site was deployed to Github Pages using the following method:
 
 - Removal of background on logo image.
 - Finding fonts that fit the project.
-- No AI used for image creation or code snippets.
+- Microsoft Copilot integrated in VSCode to help speed up the code with suggestions.
+- No AI used for image creation.
 
 #### Acknowledgement
 
