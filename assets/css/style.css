@@ -101,21 +101,21 @@ footer a:hover, footer a:focus {
   color: var(--secondary-highlight-color);
 }
 footer h5 {
-  font-size: 1.1rem;
   font-family: var(--heading-font);
 }
-footer {
+footer .row > * {
   text-align: center;
+  margin: 0.3rem 0;
 }
 #social-links a {
   margin: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 /* Media Queries */
 @media (min-width: 768px) {
    /* Footer */
-  footer {
+  footer .row > * {
     text-align: left;
   }
   #social-links {
