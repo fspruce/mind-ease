@@ -39,7 +39,11 @@ Attach wireframes in this section
 
 ### Typography
 
-Explain font you've used for your project
+Google fonts have been chosen to keep to a warm and inviting aesthetic, while maintaining the professionalism of the website:
+
+- Logo: Alata
+- Headings: Libre Franklin
+- Body: Cabin
 
 ### Colour Scheme
 
