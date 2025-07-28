@@ -51,14 +51,14 @@ h3 {
 
 /* Navigation */
 .navbar {
+  height: 6rem;
   background-color: var(--secondary-color);
-  font-size: 1.1rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 }
 .navbar-brand {
   color: var(--highlight-color);
   font-family: var(--logo-font);
-  font-size: 1.2rem;;
+  font-size: 1.2rem;
 }
 .nav-link, .navbar-toggler {
   color: var(--highlight-color);
@@ -76,3 +76,45 @@ h3 {
 /* Main Content */
 
 /* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--highlight-color)
+}
+footer a {
+  color: var(--highlight-color);
+}
+footer a:hover, footer a:focus {
+  color: var(--secondary-highlight-color);
+}
+footer h5 {
+  font-size: 1.1rem;
+  font-family: var(--heading-font);
+}
+footer {
+  text-align: center;
+}
+#social-links a {
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  footer {
+    text-align: left;
+  }
+  #social-links {
+    text-align: right;
+  }
+}
+@media (min-width: 1000px) {
+  #contact {
+    order: 1;
+  }
+  #newsletter {
+    order: 2;
+  }
+  #social-links {
+    order: 3;
+  }
+}
