@@ -71,6 +71,18 @@ h3 {
 .navbar-brand:hover{
   color: var(--secondary-highlight-color);
 }
+
+/* Mobile navbar collapse background */
+.navbar-collapse {
+  background-color: var(--secondary-color);
+  padding: 0 2rem;
+  border-radius: 0 0 5px 5px;
+  /* Override Bootstrap constraints for full width */
+  position: absolute;
+  top: 5.6rem;
+  left: 0;
+  width: 100%;
+}
 /* Header */
 
 /* Main Content */

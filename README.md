@@ -100,7 +100,9 @@ paste here you user story | what is visible to the user and what action they sho
 
 ## Bugs
 
-List of bugs and how did you fix them
+- Custom navbar styling caused toggle menu for mobiles to lose its background, copilot used to find the error. Background then changed to the same color as the navbar.
+
+- Footer divs were changing col size earlier than expected (at 1000px instead of 1200px), media query targeting their order updated to reflect this.
 
 ## Deployment
 
@@ -145,7 +147,7 @@ The site was deployed to Github Pages using the following method:
 
 - Removal of background on logo image.
 - Finding fonts that fit the project.
-- Microsoft Copilot integrated in VSCode to help speed up the code with suggestions.
+- Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (mainly bootstrap related).
 - No AI used for image creation.
 
 #### Acknowledgement
