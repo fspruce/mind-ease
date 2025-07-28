@@ -120,8 +120,6 @@ The site was deployed to Github Pages using the following method:
 
 ## Credits
 
-List of used resources for your website (text, images, snippets of code, projects....)
-
 #### Code and Text Content
 
 #### Media
@@ -133,7 +131,8 @@ List of used resources for your website (text, images, snippets of code, project
 
 - Removal of background on logo image.
 - Finding fonts that fit the project.
--
 - No AI used for image creation or code snippets.
 
 #### Acknowledgement
+
+- [Coolors](https://coolors.co/) used for color palette creation.
