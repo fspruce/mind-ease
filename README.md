@@ -57,10 +57,10 @@ Explain your features on the website,(navigation, pages, links, forms.....)
 
 ## Technologies Used
 
-List of technologies used for your project...
 HTML
 CSS
 Bootstrap
+Git
 Github
 
 ## Testing
