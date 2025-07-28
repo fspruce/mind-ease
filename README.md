@@ -127,6 +127,19 @@ The site was deployed to Github Pages using the following method:
 
 - Images found through [Pexels](http://www.pexels.com).
   - MindEase Logo - Photo by Tara Winstead: https://www.pexels.com/photo/illustration-of-a-head-and-butterflies-around-the-scalp-and-inside-the-brain-8849272/
+  - Hero Image - Photo by RF._.studio _: https://www.pexels.com/photo/photo-of-woman-doing-yoga-while-sitting-on-rock-3820380/
+  - Anxiety card - Photo by Nathan Cowley: https://www.pexels.com/photo/man-in-blue-and-brown-plaid-dress-shirt-touching-his-hair-897817/
+  - Depression card - Photo by Keenan Constance: https://www.pexels.com/photo/woman-sitting-on-wooden-planks-2865901/
+  - Eating disorder card - Photo by Ketut Subiyanto: https://www.pexels.com/photo/crop-kid-weighing-on-scale-4474052/
+  - Stress card - Photo by energepic.com: https://www.pexels.com/photo/woman-sitting-in-front-of-macbook-313690/
+  - OCD card - Photo by cottonbro studio: https://www.pexels.com/photo/woman-crouching-on-desk-among-flying-papers-in-office-8468818/
+  - Sexuality card - Photo by Brett Sayles: https://www.pexels.com/photo/photo-of-crowd-of-people-1167034/
+
+- Images found through [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page), quotes added personally.
+  - John Green - Photo by Gage Skidmore (https://commons.wikimedia.org/wiki/File:John_Green_(14331059049).jpg)
+  - Aristotle - Photo by solut_rai (https://commons.wikimedia.org/wiki/File:Philosophie-gr%C3%A8ce_Aristotle.jpg)
+  - Demi Lovato - Photo by Shanarae1 (https://commons.wikimedia.org/wiki/File:Demi_Lovato_playing_the_guitar_smile.JPG)
+  - Maya Angelou - Photo by Talbot Troy (https://commons.wikimedia.org/wiki/File:Maya_Angelou_speech_for_Barack_Obama_campaign_2008.jpg)
 
 #### AI Use
 
