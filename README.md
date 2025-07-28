@@ -36,7 +36,7 @@
 ### Wireframes
 
 A larger-scale image of the wireframes can be found [here](documentation/images/MindEase%20Wireframe.png)
-![Wireframes depicting rough layout for the site](documentation/images/MindEase%20Wireframe%20(smaller).png)
+![Wireframes depicting rough layout for the site](documentation/images/MindEase%20Wireframe%20(Smaller).png)
 
 ### Typography
 
