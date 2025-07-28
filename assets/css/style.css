@@ -1,20 +1,50 @@
 /*Colour Palette
-
+#632B6C; Finn
+#89345D; Quinacridone Magenta
+#280F36; Dark Purple
+#961C17; Carmine
+#2F0B09; Black Bean
+#DFF3E4; Honeydew
+#CFA0D9; Wisteria
+#DDBEEE; Thistle
+#FCF5F2; Snow
 */
 
 /* Fonts */
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cabin:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Global Styles */
 /* Variables */
 :root {
-  --primary-font:"";
-  --secondary-font:"";
-  --primary-color: #;
-  --secondary-color: #;
-  --highlight-color: #;
-  --highlight-color-light: #;
-  --background-color: #;
+  --logo-font: 'Alata', sans-serif;
+  --heading-font: 'Libre Franklin', sans-serif;
+  --body-font: 'Cabin', sans-serif;
+  --primary-color: #89345D; /* Quinacridone Magenta */
+  --secondary-color: #632B6C; /* Finn */
+  --heading-color: #280F36; /* Dark Purple */
+  --lead-color: #961C17; /* Carmine */
+  --text-color: #2F0B09; /* Black Bean */
+  --highlight-color: #FCF5F2; /* Snow */
+  --secondary-highlight-color: #DDBEEE; /* Thistle */
+  --tertiary-highlight-color: #CFA0D9; /* Wisteria */
+  --background-color: #DFF3E4; /* Honeydew */
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+}
+
+.lead {
+  color: var(--lead-color);
 }
 
 /* Navigation */
