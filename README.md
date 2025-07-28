@@ -147,7 +147,7 @@ The site was deployed to Github Pages using the following method:
 
 - Removal of background on logo image.
 - Finding fonts that fit the project.
-- Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (mainly bootstrap related).
+- Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (as detailed in the [bugs](#bugs) section).
 - No AI used for image creation.
 
 #### Acknowledgement
