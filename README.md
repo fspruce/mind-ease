@@ -35,7 +35,7 @@
 
 ### Wireframes
 
-Attach wireframes in this section
+![Wireframes depicting rough layout for the site](documentation/images/MindEase%20Wireframe.png)
 
 ### Typography
 
