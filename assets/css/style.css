@@ -52,6 +52,8 @@ h3 {
 /* Navigation */
 .navbar {
   height: 6rem;
+  position: fixed;
+  width: 100%;
   background-color: var(--secondary-color);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 }
@@ -87,6 +89,10 @@ h3 {
 /* Header */
 
 /* Main Content */
+main {
+  margin-top: 6rem; /* Adjust for fixed navbar */
+  padding: 1rem;
+}
 
 /* Footer */
 footer {
