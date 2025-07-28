@@ -43,7 +43,8 @@ Explain font you've used for your project
 
 ### Colour Scheme
 
-Screenshoot of the colour scheme for your project
+![Color palette swatch showing the colors used throughout the site](assets/images/readme/Colour%20Palette%20Swatch.png)
+![Mock-up design on how the colors chosen will work within the site](assets/images/readme/Colour%20Palette.png)
 
 ## Features:
 
