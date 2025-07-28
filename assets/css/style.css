@@ -60,6 +60,9 @@ h3 {
   font-family: var(--logo-font);
   font-size: 1.2rem;
 }
+.nav-link {
+  padding-top: 3.8rem;
+}
 .nav-link, .navbar-toggler {
   color: var(--highlight-color);
   border-color: var(--highlight-color);
@@ -75,13 +78,11 @@ h3 {
 /* Mobile navbar collapse background */
 .navbar-collapse {
   background-color: var(--secondary-color);
-  padding: 0 2rem;
+  padding: 0 4rem;
   border-radius: 0 0 5px 5px;
-  /* Override Bootstrap constraints for full width */
-  position: absolute;
-  top: 5.6rem;
-  left: 0;
-  width: 100%;
+}
+.navbar-collapse.collapse {
+  padding-right: 0;
 }
 /* Header */
 
@@ -113,11 +114,33 @@ footer {
 
 /* Media Queries */
 @media (min-width: 768px) {
+   /* Footer */
   footer {
     text-align: left;
   }
   #social-links {
     text-align: right;
+  }
+}
+@media (max-width: 767px) {
+  /* Navbar */
+  .nav-link {
+    padding: 0;
+    margin: 0.2rem 0 0.2rem -2.2rem;
+  }
+  .navbar-toggler {
+    padding: 0.9rem;
+  }
+  #custom-navbar-toggler-icon {
+    font-size: 1.4rem;
+  }
+  .navbar-collapse {
+    /* Override Bootstrap constraints for full width */
+    position: absolute;
+    top: 5.6rem;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
   }
 }
 @media (min-width: 1000px) {
