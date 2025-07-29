@@ -473,6 +473,28 @@
     crossorigin="anonymous"></script>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/28c4feae7e.js" crossorigin="anonymous"></script>
+  <!-- Custom JS Script -->
+  <script>
+    document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault(); // Prevent default anchor click behavior
+            let navbarHeight =
+              document.querySelector(".navbar-toggler").offsetHeight;
+            window.scroll({
+              top: section.offsetTop - navbarHeight, // Adjust for navbar height
+              behavior: "smooth",
+            });
+            document
+              .querySelector(".navbar-collapse")
+              .classList.remove("show"); // Collapse navbar
+          }
+        });
+      });
+  </script>
 </body>
 
 </html>
