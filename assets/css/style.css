@@ -129,6 +129,10 @@ header {
   height: 10rem;
   border: none;
 }
+/* Issues */
+.modal-footer {
+  justify-content: center;
+}
 
 /* Footer */
 footer {
