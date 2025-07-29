@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
@@ -91,7 +91,7 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4">
         <!-- Card for Anxiety -->
-        <div class="card" style="width: 18rem;">
+        <div class="card mx-auto" style="max-width: 18rem;">
           <img src="assets/images/card-anxiety.jpg" class="card-img-top"
             alt="Image of a man sitting cross-legged by the sea with his hands on his head, looking anxious">
           <div class="card-body">
@@ -137,7 +137,7 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4">
         <!-- Card for Depression -->
-        <div class="card" style="width: 18rem;">
+        <div class="card mx-auto" style="max-width: 18rem;">
           <img src="assets/images/card-depression.jpg" class="card-img-top"
             alt="Image of a man sitting cross-legged by the sea with his hands on his head, looking anxious">
           <div class="card-body">
@@ -182,7 +182,7 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4">
         <!-- Card for Stress -->
-        <div class="card" style="width: 18rem;">
+        <div class="card mx-auto" style="max-width: 18rem;">
           <img src="assets/images/card-stress.jpg" class="card-img-top"
             alt="Woman at a laptop surrounded by notebooks, head in hands, looking stressed">
           <div class="card-body">
@@ -231,7 +231,7 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4">
         <!-- Card for OCD-->
-        <div class="card" style="width: 18rem;">
+        <div class="card mx-auto" style="max-width: 18rem;">
           <img src="assets/images/card-ocd.jpg" class="card-img-top"
             alt="Woman crouched on a desk surrounded by paper flying around her, in a state of chaos">
           <div class="card-body">
@@ -278,7 +278,7 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4">
         <!-- Card for Eating Disorder -->
-        <div class="card" style="width: 18rem;">
+        <div class="card mx-auto" style="max-width: 18rem;">
           <img src="assets/images/card-eating-disorder.jpg" class="card-img-top"
             alt="A pair of feet stood on weighing scales, viewed from above">
           <div class="card-body">
@@ -336,7 +336,7 @@
       </div>
       <div class="col-12 col-md-6 col-lg-4">
         <!-- Card for Sexuality & Gender -->
-        <div class="card" style="width: 18rem;">
+        <div class="card mx-auto" style="max-width: 18rem;">
           <img src="assets/images/card-sexuality.jpg" class="card-img-top"
             alt="A group of people at a pride event, with one person wearing a rainbow flag as a cape">
           <div class="card-body">
@@ -385,19 +385,24 @@
       </div>
     </section>
     <section id="quotes" class="row section">
+      <h1 class="text-center mb-4">Quotes</h1>
       <div id="quotes-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/images/quote-carousel-john-green.png" class="d-block w-100" alt="Author John Green with the quote 'There is hope, even when your brain tells you there isn't.'">
+            <img src="assets/images/quote-carousel-john-green.png" class="d-block w-100"
+              alt="Author John Green with the quote 'There is hope, even when your brain tells you there isn't.'">
           </div>
           <div class="carousel-item">
-            <img src="assets/images/quote-carousel-maya-angelou.png" class="d-block w-100" alt="Activist Maya Angelou with the quote 'And still, I rise.'">
+            <img src="assets/images/quote-carousel-maya-angelou.png" class="d-block w-100"
+              alt="Activist Maya Angelou with the quote 'And still, I rise.'">
           </div>
           <div class="carousel-item">
-            <img src="assets/images/quote-carousel-demi-lovato.png" class="d-block w-100" alt="Singer Demi Lovato with the quote 'The advice I'd give to somebody silently struggling is, you don't have to live that way. You don't have to struggle in silence. You can be un-silent.'">
+            <img src="assets/images/quote-carousel-demi-lovato.png" class="d-block w-100"
+              alt="Singer Demi Lovato with the quote 'The advice I'd give to somebody silently struggling is, you don't have to live that way. You don't have to struggle in silence. You can be un-silent.'">
           </div>
           <div class="carousel-item">
-            <img src="assets/images/quote-carousel-aristotle.png" class="d-block w-100" alt="Philosopher Aristotle with the quote 'It is during our darkest moments that we must focus to see the light.'">
+            <img src="assets/images/quote-carousel-aristotle.png" class="d-block w-100"
+              alt="Philosopher Aristotle with the quote 'It is during our darkest moments that we must focus to see the light.'">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#quotes-carousel" data-bs-slide="prev">
@@ -408,6 +413,25 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+    </section>
+    <section id="links" class="row section">
+      <div class="col-12">
+        <h1 class="text-center mb-4">Useful Links</h1>
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-3">
+            <a href="" class="btn custom-btn-outline w-100">Mind</a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <a href="" class="btn custom-btn-outline w-100">Button 2</a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <a href="" class="btn custom-btn-outline w-100">Button 3</a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <a href="" class="btn custom-btn-outline w-100">Button 4</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
