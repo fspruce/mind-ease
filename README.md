@@ -163,6 +163,7 @@ The site was deployed to Github Pages using the following method:
 - Removal of background on logo image.
 - Finding fonts that fit the project.
 - Help to make information cards and connected modals more concise, as to not overwhelm with information.
+- Fix card sizes and spacing so they are uniform.
 - Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (as detailed in the [bugs](#bugs) section).
 - No AI used for image creation.
 
