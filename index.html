@@ -96,14 +96,14 @@
             <h5 class="card-title">Anxiety</h5>
             <p class="card-text">A common mental health condition that causes feelings of worry, fear or unease. It can
               affect your thoughts, body and daily life.</p>
-            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anxiety-modal">Go somewhere</a>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anxiety-modal">Read More</a>
             <!-- Modal for Anxiety -->
             <div class="modal fade" id="anxiety-modal" tabindex="-1" aria-labelledby="anxiety-modal-label"
               aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Anxiety</h1>
+                    <h1 class="modal-title fs-5" id="anxiety-modal-label">Anxiety</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -115,25 +115,263 @@
                     <p>The NHS offers self-help guides, talking therapies, and practical advice to help manage anxiety.
                       You don't have to face it alone.</p>
                     <a href="https://www.nhs.uk/mental-health/conditions/anxiety/" target="_blank"
-                      aria-label="Follow link to NHS Anxiety page (Opens in new tab)">Visit the NHS website to learn more</a>
+                      aria-label="Follow link to NHS Anxiety page (Opens in new tab)">Visit the NHS website for further support</a>
                   </div>
                   <div class="modal-footer">
-                    <a href="#">Previous</a>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#sexuality-modal"><i class="fa-solid fa-arrow-left"></i></a>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="#">Next</a>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#depression-modal"><i
+                        class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4"></div>
-      <div class="col-12 col-md-6 col-lg-4"></div>
-      <div class="col-12 col-md-6 col-lg-4"></div>
-      <div class="col-12 col-md-6 col-lg-4"></div>
-      <div class="col-12 col-md-6 col-lg-4"></div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <!-- Card for Depression -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/card-depression.jpg" class="card-img-top"
+            alt="Image of a man sitting cross-legged by the sea with his hands on his head, looking anxious">
+          <div class="card-body">
+            <h5 class="card-title">Depression</h5>
+            <p class="card-text">Depression is more than feeling sad - it's a persistent low mood that can affect how
+              you think, feel and function day to day.</p>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#depression-modal">Read More</a>
+            <!-- Modal for Depression -->
+            <div class="modal fade" id="depression-modal" tabindex="-1" aria-labelledby="depression-modal-label"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="depression-modal-label">Depression</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>What is Depression?</h5>
+                    <p>Depression can cause deep feelings of hopelessness, fatigue, and loss of interest in things you
+                      once enjoyed. It may affect sleep, appetite and concentration, and can make even small tasks feel
+                      overwhelming. It's not a sign of weakness - it's a real condition that many people experience.</p>
+                    <h5>Support and Resources</h5>
+                    <p>The NHS provides guidance on types of depression, coping strategies and treatment options, like
+                      therapy and medication. Help is available and recovery is possible.</p>
+                    <a href="https://www.nhs.uk/mental-health/conditions/depression" target="_blank"
+                      aria-label="Follow link to NHS Depression page (Opens in new tab)">Visit
+                      the NHS website for further support</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#anxiety-modal"><i
+                        class="fa-solid fa-arrow-left"></i></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#stress-modal"><i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <!-- Card for Stress -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/card-stress.jpg" class="card-img-top"
+            alt="Woman at a laptop surrounded by notebooks, head in hands, looking stressed">
+          <div class="card-body">
+            <h5 class="card-title">Stress</h5>
+            <p class="card-text">Stress is a natural response to pressure or change. While short bursts can help us stay
+              alert,
+              ongoing stress can affect our mood, body and relationships.</p>
+
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#stress-modal">Read More</a>
+            <!-- Modal for Stress -->
+            <div class="modal fade" id="stress-modal" tabindex="-1" aria-labelledby="stress-modal-label"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="stress-modal-label">Stress</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>What is Stress?</h5>
+                    <p>Stress happens when we feel overwhelmed or unable to cope with demands. It can be triggered by
+                      work, relationships, health issues or sudden life changes. Physical symptoms might include
+                      headaches, muscle tension, or trouble sleeping. Emotionally, stress can lead to irritability,
+                      anxiety or felling low.</p>
+                    <h5>Support and Resources</h5>
+                    <p>Managing stress starts with recognising its signs. The NHS offers practical tips, breathing
+                      exercises and online tools to help you cope. You don't have to handle it alone - support is
+                      available.</p>
+                    <a href="https://www.nhs.uk/every-mind-matters/mental-health-issues/stress" target="_blank"
+                      aria-label="Follow link to NHS Stress page (Opens in new tab)">Visit
+                      the NHS website for further support</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#depression-modal"><i
+                        class="fa-solid fa-arrow-left"></i></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#ocd-modal"><i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <!-- Card for OCD-->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/card-ocd.jpg" class="card-img-top"
+            alt="Woman crouched on a desk surrounded by paper flying around her, in a state of chaos">
+          <div class="card-body">
+            <h5 class="card-title">Obsessive Compulsive Disorder (OCD)</h5>
+            <p class="card-text">OCD is a mental health condition involving unwanted thoughts (obsessions) and
+              repetitive behaviours (compulsions). It can be distressing and interfere with daily life.</p>
+
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ocd-modal">Read More</a>
+            <!-- Modal for OCD -->
+            <div class="modal fade" id="ocd-modal" tabindex="-1" aria-labelledby="ocd-modal-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ocd-modal-label">Obsessive Compulsive Disorder (OCD)</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>What is OCD?</h5>
+                    <p>OCD causes persistent, intrusive thoughts that create anxiety - like fears of harm,
+                      contamination, or things being "not right". To ease distress, people may feel compelled to repeat
+                      actions
+                      like checking, cleaning, or counting. These behaviours can offer temporary relief, but often
+                      reinforce the
+                      cycle.</p>
+                    <h5>Support and Resources</h5>
+                    <p>OCD is treatable. The NHS offers talking therapies like CBT, which help break the pattern of
+                      obsessions and compulsions. You're not alone - support is available, and recovery is possible.</p>
+                    <a href="" target="_blank" aria-label="Follow link to NHS OCD page (Opens in new tab)">Visit
+                      the NHS website for further support</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#stress-modal"><i
+                        class="fa-solid fa-arrow-left"></i></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#eating-disorder-modal"><i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <!-- Card for Eating Disorder -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/card-eating-disorder.jpg" class="card-img-top"
+            alt="A pair of feet stood on weighing scales, viewed from above">
+          <div class="card-body">
+            <h5 class="card-title">Eating Disorders</h5>
+            <p class="card-text">Eating Disorders are serious mental health conditions. They involve using food - either
+              too much or too little - as a way to cope with difficult emotions, stress or self image.</p>
+
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eating-disorder-modal">Read More</a>
+            <!-- Modal for Eating Disorders -->
+            <div class="modal fade" id="eating-disorder-modal" tabindex="-1"
+              aria-labelledby="eating-disorder-modal-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="eating-disorder-modal-label">Eating Disorders</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>What is an Eating Disorder?</h5>
+                    <p>Eating disorders aren't just about food. They're about how someone feels inside. People may
+                      overeat, undereat, or obsess over food and body image as a way to manage emotional pain, anxiety,
+                      or a need for control. These behaviours can feel compulsive and isolating, and they often mask
+                      deeper struggles.</p>
+                    <h5>Types of Eating Disorders</h5>
+                    <ul>
+                      <li><strong>Anorexia:</strong> Restricting food intake due to fear of gaining weight or feeling
+                        "not good enough".</li>
+                      <li><strong>Bulimia:</strong> Binge eating followed by purging (e.g. vomiting, laxatives or
+                        over-exercising).</li>
+                      <li><strong>Binge Eating Disorder:</strong> Eating large amounts of food quickly, often in secret,
+                        followed by guilt or shame.</li>
+                      <li><strong>OSFED & ARFID:</strong> Other patterns that don't fit neatly into one category, but
+                        still cause distress and impact health.</li>
+                    </ul>
+                    <h5>Support and Resources</h5>
+                    <p>You're not alone. The NHS offers support through talking therapies like CBT, and organisations
+                      like Beat provide helplines and peer support. Recovery is possible, and help is available.</p>
+                    <a href="https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/"
+                      target="_blank" aria-label="Follow link to NHS Eating Disorders page (Opens in new tab)">Visit
+                      the NHS website for further support</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#ocd-modal"><i
+                        class="fa-solid fa-arrow-left"></i></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#sexuality-modal"><i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <!-- Card for Sexuality & Gender -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/card-sexuality.jpg" class="card-img-top"
+            alt="A group of people at a pride event, with one person wearing a rainbow flag as a cape">
+          <div class="card-body">
+            <h5 class="card-title">Sexuality & Gender</h5>
+            <p class="card-text"></p>
+
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sexuality-modal">Read More</a>
+            <!-- Modal for Sexuality & Gender -->
+            <div class="modal fade" id="sexuality-modal" tabindex="-1" aria-labelledby="sexuality-modal-label"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="sexuality-modal-label">Sexuality & Gender</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Understanding the Struggle</h5>
+                    <p>Coming to terms with your sexuality or gender identity can be empowering - but it may also
+                      involve confusion, fear, or distress. For some, this icludes experiences like gender dysphoria,
+                      where there's discomfort between one's gender identity and assigned sex at birth. Others may feel
+                      isolated or anxious when navigating their sexuality, especially if they face stigma or rejection.
+                    </p>
+                    <h5>Support and Resources</h5>
+                    <p>You're not alone. The NHS offers guidance and support for those experiencing gender dysphoria,
+                      and promotes inclusive care for LGBTQ+ individuals. Talking therapies, peer support and affirming
+                      environments can make a big difference.</p>
+                    <a href="https://www.switchboard.lgbt/" target="_blank"
+                      aria-label="Follow link to Switchboard website for LGBTQ+ support (Opens in new tab)">Visit
+                      the Switchboard website for further support</a>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#eating-disorder-modal"><i
+                        class="fa-solid fa-arrow-left"></i></a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#anxiety-modal"><i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
   </main>
 
