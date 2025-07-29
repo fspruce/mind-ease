@@ -145,6 +145,8 @@ The site was deployed to Github Pages using the following method:
   - Demi Lovato - Photo by Shanarae1 (https://commons.wikimedia.org/wiki/File:Demi_Lovato_playing_the_guitar_smile.JPG)
   - Maya Angelou - Photo by Talbot Troy (https://commons.wikimedia.org/wiki/File:Maya_Angelou_speech_for_Barack_Obama_campaign_2008.jpg)
 
+- We All Have Mental Health - YouTube video by Anna Freud (https://www.youtube.com/watch?v=DxIDKZHW3-E)
+
 #### AI Use
 
 - Removal of background on logo image.
