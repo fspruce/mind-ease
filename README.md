@@ -53,21 +53,32 @@ Google fonts have been chosen to keep to a warm and inviting aesthetic, while ma
 
 ## Features:
 
-Explain your features on the website,(navigation, pages, links, forms.....)
-
 ### Navigation
+Navigation bar fixed to the top of the site regardless of user position. Contains site logo and links to sections within the page.
+
+### Header
+Contains a calming hero image, with a quote overlain on top to draw users in, and remind them that it's their hard work that will pay off.
+
+### Main Content
+#### Welcome Section
+Contains a short introduction to the page, and a video for users to find out more about mental health. The video is more catered towards child audiences, but would be updated to something original if not for this being a demo website.
+
+#### Common Issues
+Contains cards with brief information regarding common mental health issues users may be facing. The user can then open a modal through the button in the card to find more detailed information regarding the issue, as well as a relevant link for further support. The modal also contains arrows that allow the user to move between the information once one modal has been opened.
 
 ### Footer
+Contains contact details and links to social medias (directs to homepages since this is just a demo website).
 
 ### Other features
+Site is fully responsive to different screen sizes, with sections resizing and grid layout changing to fit the screen.
 
 ## Technologies Used
 
-HTML
-CSS
-Bootstrap
-Git
-Github
+- HTML: for main page creation.
+- CSS: for custom styling.
+- Bootstrap: for pre-made widgets, like cards.
+- Git: to create commits and push to GitHub.
+- GitHub: to host the site files and deploy the site.
 
 ## Testing
 
@@ -151,6 +162,7 @@ The site was deployed to Github Pages using the following method:
 
 - Removal of background on logo image.
 - Finding fonts that fit the project.
+- Help to make information cards and connected modals more concise, as to not overwhelm with information.
 - Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (as detailed in the [bugs](#bugs) section).
 - No AI used for image creation.
 
