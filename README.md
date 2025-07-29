@@ -104,6 +104,8 @@ paste here you user story | what is visible to the user and what action they sho
 
 - Footer divs were changing col size earlier than expected (at 1000px instead of 1200px), media query targeting their order updated to reflect this.
 
+- Background image in hero section was not resizing to fit the screen properly at different screen sizes, AI used to help with zoom percentages.
+
 ## Deployment
 
 #### Creating Repository on GitHub
