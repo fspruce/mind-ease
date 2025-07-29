@@ -31,23 +31,22 @@
   --button-secondary-color: #CFA0D9; /* Wisteria */
   --background-color: #DFF3E4; /* Honeydew */
 }
-
-
 body {
   font-family: var(--body-font);
   color: var(--text-color);
   background-color: var(--background-color);
 }
-
 h1,
 h2,
 h3 {
   font-family: var(--heading-font);
   color: var(--heading-color);
 }
-
 .lead {
   color: var(--lead-color);
+}
+.section {
+  padding-top: 6rem; /* Space for fixed navbar */
 }
 
 /* Navigation */
