@@ -45,6 +45,14 @@ h3 {
 .lead {
   color: var(--lead-color);
 }
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--heading-color);
+}
 .section {
   padding-top: 6rem; /* Space for fixed navbar */
 }
@@ -59,6 +67,17 @@ h3 {
 .custom-btn-outline:hover {
   background-color: var(--secondary-color);
   color: var(--highlight-color);
+  border-color: var(--secondary-color);
+}
+.custom-btn-filled {
+  background-color: var(--secondary-color);
+  color: var(--highlight-color);
+  border: 2px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+.custom-btn-filled:hover {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
 
@@ -171,6 +190,36 @@ header {
 }
 .btn {
   margin-top: auto;
+}
+/* Modals */
+.modal h5 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+}
+
+.modal-header {
+  background-color: var(--button-secondary-color);
+  color: var(--highlight-color)
+}
+.modal-header a {
+  font-size: 1.5rem;
+}
+.modal-body {
+  background-color: var(--highlight-color);
+}
+.modal-footer {
+  background-color: var(--button-primary-color);
+}
+.modal-footer a {
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+.modal-body a {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Footer */
