@@ -197,7 +197,6 @@ header {
   font-family: var(--heading-font);
   color: var(--heading-color);
 }
-
 .modal-header {
   background-color: var(--button-secondary-color);
   color: var(--highlight-color)
@@ -221,6 +220,23 @@ header {
   margin-top: 1rem;
   font-weight: bold;
   text-decoration: underline;
+}
+/* Quotes */
+#quotes-carousel {
+ width: 100%;
+ margin-top: 0;
+}
+
+#quotes-carousel .carousel-inner {
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#quotes-carousel img {
+  width: 100%;
+  height: 150px;
+  object-fit: fill;
+  object-position: center;
 }
 
 /* Footer */
@@ -307,6 +323,10 @@ footer .row > * {
   #welcome iframe {
     height: 20rem;
   }
+  /* Quotes */
+  #quotes-carousel img {
+    height: 180px;
+  }
 }
 
 /* Laptops & larger */
@@ -336,6 +356,10 @@ footer .row > * {
   #welcome iframe {
     height: 15rem;
     margin-top: 2rem;
+  }
+  /* Quotes */
+  #quotes-carousel img {
+    height: 220px;
   }
 }
 /*
@@ -377,5 +401,9 @@ footer .row > * {
   /* Main Content */
   #welcome iframe {
     height: 20rem;
+  }
+  /* Quotes */
+  #quotes-carousel img {
+    height: 260px;
   }
 }
