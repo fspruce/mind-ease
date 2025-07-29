@@ -41,6 +41,7 @@ h2,
 h3 {
   font-family: var(--heading-font);
   color: var(--heading-color);
+  margin: 0.5rem 0;
 }
 .lead {
   color: var(--lead-color);
@@ -54,7 +55,7 @@ a:hover {
   color: var(--heading-color);
 }
 .section {
-  padding-top: 6rem; /* Space for fixed navbar */
+  padding-top: 6.4rem; /* Space for fixed navbar */
 }
 
 /* Custom Buttons */
