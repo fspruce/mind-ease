@@ -171,3 +171,4 @@ The site was deployed to Github Pages using the following method:
 #### Acknowledgement
 
 - [Coolors](https://coolors.co/) used for color palette creation.
+- Collapsable mobile navbar script provided by Code Institute from the Boardwalk Games walkthrough project.
