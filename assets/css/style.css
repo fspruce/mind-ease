@@ -199,7 +199,7 @@ header {
 }
 .modal-header {
   background-color: var(--button-secondary-color);
-  color: var(--highlight-color)
+  color: var(--highlight-color);
 }
 .modal-header a {
   font-size: 1.5rem;
