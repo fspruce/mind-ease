@@ -124,12 +124,16 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ### Manual Testing user stories or/and features
 
-Test all your user stories, you an create table
-User Story | Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-
-- and attach screenshot
+| **User Story**                          | **Test** | **Pass** | **Screenshots** |
+| --------------------------------------- | -------- | -------- | -----------------|
+| Responsive Layout                       | Grid layout used - DevTools used to check responsiveness, layouts work on mobile, tablets and desktops.         |  &check; | ![Image showing website on different size screens, showing its responsive nature](documentation/images/Responsive.png)|
+| Clear Main Navigation Menu              | Navbar sticks to the top of the screen, and each link in the navbar is highlighted as the user reaches that section.         |  &check; | ![Image of the navbar, showing its sticky state and highlighted active links](documentation/images/Navbar.png) |
+| Calming Hero Section                    | Calming image of a person meditating used as the hero image, with a mindful quote overlain on top.         |  &check; | ![Image of the hero section of the website, woman in a mediating pose with a quote overlain on top](documentation/images/Hero%20Section.png) |
+| Accessibility Available Throughout Site | Accessibilty features (such as alt. texts, aria-labels, etc.) implemented from the start, with AI used at the end to check that all elements of the site are as accessible as possible. Accessibility validation performed with a score of 83.7%, with some errors appearing due to bootstrap.  |  &check; | ![Image of an accessibilty validation test, showing a 83.7% score](documentation/images/Accessibility.png) |
+| Information Cards for Tips & Issues     | Common issues section contains cards, each card contains a brief overview of the issue with a "read more" button opening a more detailed modal.         |  &check; | ![Image of the common issues section of the page showing the information cards](documentation/images/Issue%20Cards.png) ![Image of a modal that appears when interacting with an issue card](documentation/images/Issue%20Modal.png) |
+| Resource Links Styled as Buttons        | Useful Links section contains buttons for individual support sites. These buttons open modals so the user knows what each site is aimed towards, but each modal also has a styled button to link to the site.         |  &check; | ![Image of the buttons present in the useful links section](documentation/images/Links%20Buttons.png) ![Image of the modals which appear when interacting with the links buttons](documentation/images/Links%20Modal.png) |
+| Positive Affirmations Section           | Section not included in the final project - did not feel like it fit with the website.         |  &#x58;  | Section not included in the final project. |
+| Media Play/Pause Controls               | Media provided through embedded YouTube link, which contains its own play/pause controls. This seemed the better option as it allowed for YouTube's closed-captioning to be available for further accessibility.        |  &check; | ![Image of the YouTube player present in the welcome section of the site](documentation/images/Video.png) |
 
 ## Bugs
 
