@@ -277,12 +277,12 @@ footer .row > * {
   display: block;
   /* Show when target is active */
 }
-#success-modal .modal-header a {
+.modal-header a {
   color: var(--primary-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
-#success-modal .modal-header a:hover {
+.modal-header a:hover {
   color: var(--heading-color);
 }
 

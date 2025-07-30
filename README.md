@@ -113,9 +113,21 @@ paste here you user story | what is visible to the user and what action they sho
 
 - Custom navbar styling caused toggle menu for mobiles to lose its background, copilot used to find the error. Background then changed to the same color as the navbar.
 
-- Footer divs were changing col size earlier than expected (at 1000px instead of 1200px), media query targeting their order updated to reflect this.
+- Contact Us link in navbar not picked up by the scroll spy feature. Error caused by links section being before the footer, and the contact section being in the footer (can not scroll further than the bottom of the page and so contact us section isn't target as active).
+
+- Collapse menu persitant after navigating to section on small screens, javascript taken from boardwalk games walkthrough project to fix.
 
 - Background image in hero section was not resizing to fit the screen properly at different screen sizes, AI used to help with zoom percentages.
+
+- Quotes carousel images less clear on smaller screens, can be fixed with different res images showing for different screen sizes.
+
+- Modals outside of the card section were not styled in the same way as those in the card section. Less specific targeting styles applied.
+
+- Footer divs were changing col size earlier than expected (at 1000px instead of 1200px), media query targeting their order updated to reflect this.
+
+- Footer divs misaligned, elements not nested in the grid properly.
+
+- **Newsletter:** For form validation, form tag is needed. However, upon submission of the form, the page refreshes. As such, a success modal could not pop up after the form had been submitted. Without using JavaScript, and keeping to the one page brief, pseudo-classes have been used to "fake" a success modal pop up.
 
 ## Deployment
 
