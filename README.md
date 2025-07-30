@@ -1,4 +1,8 @@
-# [MindEase](https://fspruce.github.io/mind-ease/)
+# [MindEase](https://fspruce.github.io/mind-ease/) - by Fintan Spruce
+## Introduction
+This is my first project through Code Institute's 16-week Full-Stack Developer Bootcamp. The brief was to create a single page website using HTML, CSS and Bootstrap, and to make use of [AI](#ai-use) throughout the project. This project was also my first chance to fully test out git by through commits and pushes to the GitHub repository.
+
+I went for a page dedicated to helping those struggling with mental health difficulties to learn more about their condtitions, and guide them towards further resources. The website needed to be fully responsive, and include accesibility elements throughout. I have made use of GitHub pages to deploy the site, which can be found [here](https://fspruce.github.io/mind-ease/).
 
 ## Table Of Contents:
 
@@ -94,15 +98,19 @@ Site is fully responsive to different screen sizes, with sections resizing and g
 - HTML: for main page creation.
 - CSS: for custom styling.
 - Bootstrap: for pre-made widgets, like cards.
+- Microsoft Copilot: for AI use within VSCode and [elsewhere](#ai-use).
 - Git: to create commits and push to GitHub.
 - GitHub: to host the site files and deploy the site.
 
 ## Testing
 
 ### Google's Lighthouse Performance
-
-Screenshots of certain pages and scores (mobile and desktop)
-
+#### Mobile
+![Google Lighthouse mobile results](documentation/images/Mobile%20Lighthouse%20Results.png)
+![Google Lighthouse mobile metrics](documentation/images/Mobile%20Lighthouse%20Metrics.png)
+#### Desktop
+![Google Lighthouse desktop results](documentation/images/Desktop%20Lighthouse%20Results.png)
+![Google Lighthouse desktop metrics](documentation/images/Desktop%20Lighthouse%20Metrics.png)
 ### Browser Compatibility
 
 ![Image showing the results of a browser compatibility test, with zero errors on browser compatibility](documentation/images/Browser%20Compatibility.png)
