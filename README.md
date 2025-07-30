@@ -36,7 +36,7 @@
 ### Wireframes
 
 A larger-scale image of the wireframes can be found [here](documentation/images/MindEase%20Wireframe.png)
-![Wireframes depicting rough layout for the site](documentation/images/MindEase%20Wireframe%20(Smaller).png)
+![Wireframes depicting rough layout for the site](<documentation/images/MindEase%20Wireframe%20(Smaller).png>)
 
 ### Typography
 
@@ -54,28 +54,37 @@ Google fonts have been chosen to keep to a warm and inviting aesthetic, while ma
 ## Features:
 
 ### Navigation
+
 Navigation bar fixed to the top of the site regardless of user position. Contains site logo and links to sections within the page. Scrollspy implemented to show active sections within the navbar.
 
 ### Header
+
 Contains a calming hero image, with a quote overlain on top to draw users in, and remind them that it's their hard work that will pay off.
 
 ### Main Content
+
 #### Welcome Section
+
 Contains a short introduction to the page, and a video for users to find out more about mental health. The video is more catered towards child audiences, but would be updated to something original if not for this being a demo website.
 
 #### Common Issues
+
 Contains cards with brief information regarding common mental health issues users may be facing. The user can then open a modal through the button in the card to find more detailed information regarding the issue, as well as a relevant link for further support. The modal also contains arrows that allow the user to move between the information once one modal has been opened.
 
 #### Quotes
+
 An autoplaying carousel of images showing uplifting quotes over images of the people who said them. Users can also move back and forth between the images if they wish to.
 
 #### Useful Links
+
 Buttons which open modals with a brief description of what the services the organisations provide, with a link to their websites. Buttons contain icons to help make them stand out, and show the main aspects of the service (e.g. Shout has a mobile and speech bubble to show that it is a texting service, whereas Samaritans has telephones to show that its a calling service).
 
 ### Footer
+
 Contains contact details and links to social medias (directs to homepages since this is just a demo website). Button to bring up form to sign up for a newsletter (validation present, but data not stored), with success message when submitted.
 
 ### Other features
+
 Site is fully responsive to different screen sizes, with sections resizing and grid layout changing to fit the screen. Care has been taken to include as much accessibility options as possible for users who may need it. All links open in a new tab.
 
 ## Technologies Used
@@ -139,9 +148,9 @@ paste here you user story | what is visible to the user and what action they sho
 
 #### Creating Repository on GitHub
 
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
+- First make sure you are signed into [Github](https://github.com/).
+- Then click on **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
+- Once the repository was created, I cloned the repository to my **VSCode** so that I could start working on it.
 
 #### Deloying on Github
 
@@ -152,29 +161,66 @@ The site was deployed to Github Pages using the following method:
 - Using the 'select branch' dropdown menu, choose 'main'.
 - Click 'save'.
 
+The deployment page can be found [here](https://fspruce.github.io/mind-ease/).
+
 ## Credits
 
 #### Code and Text Content
 
+- Collapsable mobile navbar script provided by Code Institute from the Boardwalk Games walkthrough project.
+
+```
+<script>
+  document
+    .querySelectorAll(".navbar-collapse .nav-link")
+    .forEach((link) => {
+      link.addEventListener("click", function (e) {
+        let section = document.querySelector(e.target.getAttribute("href"));
+        if (section) {
+          e.preventDefault();
+          let navbarHeight =
+            document.querySelector(".navbar-toggler").offsetHeight;
+          window.scroll({
+            top: section.offsetTop - navbarHeight,
+            behavior: "smooth",
+          });
+          document
+            .querySelector(".navbar-collapse")
+            .classList.remove("show");
+        }
+      });
+    });
+</script>
+```
+- Information regarding mental health and the sites in which to find resources sourced from:
+  - [Mind](https://www.mind.org.uk/)
+  - [NHS](https://www.nhs.uk/)
+  - [Mental Health Foundation](https://www.mentalhealth.org.uk/)
+  - [Young Minds](https://www.youngminds.org.uk/)
+  - [Shout](https://giveusashout.org/)
+  - [Samaritans](http://samaritans.org/)
+  - [Switchboard](https://switchboard.lgbt/)
 #### Media
 
 - Images found through [Pexels](http://www.pexels.com).
-  - MindEase Logo - Photo by Tara Winstead: https://www.pexels.com/photo/illustration-of-a-head-and-butterflies-around-the-scalp-and-inside-the-brain-8849272/
-  - Hero Image - Photo by RF._.studio _: https://www.pexels.com/photo/photo-of-woman-doing-yoga-while-sitting-on-rock-3820380/
-  - Anxiety card - Photo by Nathan Cowley: https://www.pexels.com/photo/man-in-blue-and-brown-plaid-dress-shirt-touching-his-hair-897817/
-  - Depression card - Photo by Keenan Constance: https://www.pexels.com/photo/woman-sitting-on-wooden-planks-2865901/
-  - Eating disorder card - Photo by Ketut Subiyanto: https://www.pexels.com/photo/crop-kid-weighing-on-scale-4474052/
-  - Stress card - Photo by energepic.com: https://www.pexels.com/photo/woman-sitting-in-front-of-macbook-313690/
-  - OCD card - Photo by cottonbro studio: https://www.pexels.com/photo/woman-crouching-on-desk-among-flying-papers-in-office-8468818/
-  - Sexuality card - Photo by Brett Sayles: https://www.pexels.com/photo/photo-of-crowd-of-people-1167034/
+
+  - [MindEase Logo](https://www.pexels.com/photo/illustration-of-a-head-and-butterflies-around-the-scalp-and-inside-the-brain-8849272/) - Photo by Tara Winstead
+  - [Hero Image](https://www.pexels.com/photo/photo-of-woman-doing-yoga-while-sitting-on-rock-3820380/) - Photo by RF._.studio _
+  - [Anxiety card](https://www.pexels.com/photo/man-in-blue-and-brown-plaid-dress-shirt-touching-his-hair-897817/) - Photo by Nathan Cowley
+  - [Depression card](https://www.pexels.com/photo/woman-sitting-on-wooden-planks-2865901/) - Photo by Keenan Constance
+  - [Eating disorder card](https://www.pexels.com/photo/crop-kid-weighing-on-scale-4474052/) - Photo by Ketut Subiyanto
+  - [Stress card](https://www.pexels.com/photo/woman-sitting-in-front-of-macbook-313690/) - Photo by energepic.com
+  - [OCD card](https://www.pexels.com/photo/woman-crouching-on-desk-among-flying-papers-in-office-8468818/) - Photo by cottonbro studio
+  - [Sexuality card](https://www.pexels.com/photo/photo-of-crowd-of-people-1167034/) - Photo by Brett Sayles
 
 - Images found through [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page), quotes added personally.
-  - John Green - Photo by Gage Skidmore (https://commons.wikimedia.org/wiki/File:John_Green_(14331059049).jpg)
-  - Aristotle - Photo by solut_rai (https://commons.wikimedia.org/wiki/File:Philosophie-gr%C3%A8ce_Aristotle.jpg)
-  - Demi Lovato - Photo by Shanarae1 (https://commons.wikimedia.org/wiki/File:Demi_Lovato_playing_the_guitar_smile.JPG)
-  - Maya Angelou - Photo by Talbot Troy (https://commons.wikimedia.org/wiki/File:Maya_Angelou_speech_for_Barack_Obama_campaign_2008.jpg)
 
-- We All Have Mental Health - YouTube video by Anna Freud (https://www.youtube.com/watch?v=DxIDKZHW3-E)
+  - [John Green](https://commons.wikimedia.org/wiki/File:John_Green_(14331059049).jpg) - Photo by Gage Skidmore
+  - [Aristotle](https://commons.wikimedia.org/wiki/File:Philosophie-gr%C3%A8ce_Aristotle.jpg) - Photo by solut_rai
+  - [Demi Lovato](https://commons.wikimedia.org/wiki/File:Demi_Lovato_playing_the_guitar_smile.JPG) - Photo by Shanarae1
+  - [Maya Angelou](https://commons.wikimedia.org/wiki/File:Maya_Angelou_speech_for_Barack_Obama_campaign_2008.jpg) - Photo by Talbot Troy
+
+- [We All Have Mental Health](https://www.youtube.com/watch?v=DxIDKZHW3-E) - YouTube video by Anna Freud 
 
 #### AI Use
 
@@ -183,6 +229,7 @@ The site was deployed to Github Pages using the following method:
 - Help to make information cards and connected modals more concise, as to not overwhelm with information.
 - Fix card sizes and spacing so they are uniform.
 - Fix image sizes in the quotes banner when on smaller screens.
+- Help with overall spacing within the bootstrap grids.
 - Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (as detailed in the [bugs](#bugs) section).
 - No AI used for image creation.
 
