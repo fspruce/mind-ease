@@ -105,14 +105,18 @@ Screenshots of certain pages and scores (mobile and desktop)
 
 ### Browser Compatibility
 
-Check compatability with different browsers
+![Image showing the results of a browser compatibility test, with zero errors on browser compatibility](documentation/images/Browser%20Compatibility.png)
+
+- Overall no errors for browser compatibility.
+- Errors shown in table stem from empty hrefs which I have added to get the styling I wanted, but keep the user in the same place once they have clicked the link, such as within custom modal closing buttons.
 
 ### Responsiveness
 
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+![Image showing website on different size screens, showing its responsive nature](documentation/images/Responsive.png)
+
+- The website is fully responsive on common devices, such as mobiles, tablets and desktops. 
 
 ### Code Validation
-
 #### HTML
 ![HTML validation results screenshot](documentation/images/HTML%20Validation.png)
 - No errors present.
@@ -248,4 +252,8 @@ The deployment page can be found [here](https://fspruce.github.io/mind-ease/).
 #### Acknowledgement
 
 - [Coolors](https://coolors.co/) used for color palette creation.
+- [W3](https://validator.w3.org/) used for HTML validation testing.
+- [Jigsaw](https://jigsaw.w3.org/) used for CSS validation testing.
+- [SkyNet Technologies](https://freeaccessibilitychecker.skynettechnologies.com/) used for accessibility testing.
+- [PowerMapper](https://www.powermapper.com/products/sortsite/checks/browser-compatibility/) used for browser compatibility testing.
 - Collapsable mobile navbar script provided by Code Institute from the Boardwalk Games walkthrough project.
