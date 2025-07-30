@@ -238,7 +238,7 @@ header {
 }
 
 /* Links */
-#links a {
+#links >div > a {
   width: 10rem;
 }
 
