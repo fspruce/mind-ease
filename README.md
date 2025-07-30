@@ -1,3 +1,5 @@
+# [MindEase](https://fspruce.github.io/mind-ease/)
+
 ## Table Of Contents:
 
 1. [Design & Planning](#design-&-planning)
@@ -97,8 +99,6 @@ Site is fully responsive to different screen sizes, with sections resizing and g
 
 ## Testing
 
-Important part of your README!!!
-
 ### Google's Lighthouse Performance
 
 Screenshots of certain pages and scores (mobile and desktop)
@@ -113,7 +113,14 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ### Code Validation
 
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+#### HTML
+![HTML validation results screenshot](documentation/images/HTML%20Validation.png)
+- No errors present.
+- Warnings present mainly due to bootstrap's card template using \<h1> tags in their headings.
+
+#### CSS
+![CSS validation results screeshot](documentation/images/CSS%20Validation.png)
+- No errors present.
 
 ### Manual Testing user stories or/and features
 

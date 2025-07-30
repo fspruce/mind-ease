@@ -260,8 +260,9 @@ footer a:hover,
 footer a:focus {
   color: var(--secondary-highlight-color);
 }
-footer h5 {
-  font-family: var(--heading-font);
+footer h2 {
+  color: var(--highlight-color);
+  font-size: 1.4rem;
 }
 footer .row > * {
   text-align: center;
