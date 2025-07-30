@@ -230,6 +230,7 @@ The deployment page can be found [here](https://fspruce.github.io/mind-ease/).
 - Fix card sizes and spacing so they are uniform.
 - Fix image sizes in the quotes banner when on smaller screens.
 - Help with overall spacing within the bootstrap grids.
+- Code validation for syntax errors and correct use of accessibility features.
 - Microsoft Copilot integrated in VSCode to help speed up the code with suggestions and find tricky errors (as detailed in the [bugs](#bugs) section).
 - No AI used for image creation.
 
