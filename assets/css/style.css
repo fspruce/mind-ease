@@ -209,8 +209,9 @@ header {
 }
 .modal-footer {
   background-color: var(--button-primary-color);
+  justify-content: center;
 }
-.modal-footer a {
+.modal-footer a:not(.btn) {
   font-size: 2rem;
   margin: 0 2rem;
 }
@@ -265,6 +266,24 @@ footer .row > * {
 #social-links a {
   margin: 1rem;
   font-size: 1.5rem;
+}
+/* Newsletter */
+/* Success Modal */
+#success-modal {
+  display: none;
+  /* Hide by default */
+}
+#success-modal:target {
+  display: block;
+  /* Show when target is active */
+}
+#success-modal .modal-header a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+#success-modal .modal-header a:hover {
+  color: var(--heading-color);
 }
 
 /* Media Queries */

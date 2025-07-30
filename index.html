@@ -542,42 +542,68 @@
     <div class="container mt-2">
       <div class="row">
         <div id="newsletter" class="col-12 col-lg-4 text-center">
-          <a class="btn custom-btn-outline" href="" data-bs-toggle="modal" data-bs-target="#newsletter-modal">Keep in touch!</a>
-          <div class="modal fade" id="newsletter-modal" tabindex="-1" aria-labelledby="newsletter-modal-label"
-            aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="newsletter-modal-label">Subscribe to our newsletter for regular updates!</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <a class="btn custom-btn-outline" href="" data-bs-toggle="modal" data-bs-target="#newsletter-modal">Keep in
+            touch!</a>
+          <!-- Success Modal -->
+          <div id="success-modal">
+            <div class="modal-backdrop fade show"></div>
+            <div class="modal d-block" id="successModal" tabindex="-1" aria-labelledby="successModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="successModalLabel">Success!</h1>
+                    <a href="#newsletter" class="ms-auto"  aria-label="Close"><i
+                    class="fa-solid fa-xmark"></i></a>
+                  </div>
+                  <div class="modal-body">
+                    Thank you for subscribing.
+                  </div>
+                  <div class="modal-footer">
+                    <a class="btn custom-btn-outline" href="#newsletter">Keep Browsing</a>
+                  </div>
                 </div>
-                <div class="modal-body">
-                  <form class="row g-3" method="GET" action="#success-modal">
-                    <div class="col-12 col-md-6">
-                      <label for="name" class="form-label">Full Name</label>
-                      <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Form Modal -->
+        <div class="modal fade" id="newsletter-modal" tabindex="-1" aria-labelledby="newsletter-modal-label"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="newsletter-modal-label">Subscribe to our newsletter for regular
+                  updates!</h1>
+                <a href="#newsletter" class="ms-auto"  aria-label="Close"><i
+                    class="fa-solid fa-xmark"></i></a>
+              </div>
+              <div class="modal-body">
+                <form class="row g-3" method="GET" action="#success-modal">
+                  <div class="col-12 col-md-6">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <label for="dob" class="form-label">Date-of-Birth</label>
+                    <input type="date" class="form-control" id="dob" name="dob" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck" name="terms" required>
+                      <label class="form-check-label" for="gridCheck">
+                        Accept terms & conditions
+                      </label>
                     </div>
-                    <div class="col-12 col-md-6">
-                      <label for="dob" class="form-label">Date-of-Birth</label>
-                      <input type="date" class="form-control" id="dob" name="dob" required>
-                    </div>
-                    <div class="col-12">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck" name="terms" required>
-                        <label class="form-check-label" for="gridCheck">
-                          Accept terms & conditions
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-sm btn-outline-success">Sign Up</button>
-                    </div>
-                  </form>
-                </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-sm btn-outline-success">Sign Up</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -605,7 +631,6 @@
         </div>
       </div>
     </div>
-
   </footer>
 
   <!-- Scripts -->
