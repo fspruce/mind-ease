@@ -54,7 +54,7 @@ Google fonts have been chosen to keep to a warm and inviting aesthetic, while ma
 ## Features:
 
 ### Navigation
-Navigation bar fixed to the top of the site regardless of user position. Contains site logo and links to sections within the page.
+Navigation bar fixed to the top of the site regardless of user position. Contains site logo and links to sections within the page. Scrollspy implemented to show active sections within the navbar.
 
 ### Header
 Contains a calming hero image, with a quote overlain on top to draw users in, and remind them that it's their hard work that will pay off.
@@ -66,11 +66,17 @@ Contains a short introduction to the page, and a video for users to find out mor
 #### Common Issues
 Contains cards with brief information regarding common mental health issues users may be facing. The user can then open a modal through the button in the card to find more detailed information regarding the issue, as well as a relevant link for further support. The modal also contains arrows that allow the user to move between the information once one modal has been opened.
 
+#### Quotes
+An autoplaying carousel of images showing uplifting quotes over images of the people who said them. Users can also move back and forth between the images if they wish to.
+
+#### Useful Links
+Buttons which open modals with a brief description of what the services the organisations provide, with a link to their websites. Buttons contain icons to help make them stand out, and show the main aspects of the service (e.g. Shout has a mobile and speech bubble to show that it is a texting service, whereas Samaritans has telephones to show that its a calling service).
+
 ### Footer
-Contains contact details and links to social medias (directs to homepages since this is just a demo website).
+Contains contact details and links to social medias (directs to homepages since this is just a demo website). Button to bring up form to sign up for a newsletter (validation present, but data not stored), with success message when submitted.
 
 ### Other features
-Site is fully responsive to different screen sizes, with sections resizing and grid layout changing to fit the screen.
+Site is fully responsive to different screen sizes, with sections resizing and grid layout changing to fit the screen. Care has been taken to include as much accessibility options as possible for users who may need it. All links open in a new tab.
 
 ## Technologies Used
 
