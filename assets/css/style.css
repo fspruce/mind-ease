@@ -96,6 +96,9 @@ a:hover {
   font-family: var(--logo-font);
   font-size: 1.2rem;
 }
+.navbar-logo {
+  width: 2.5rem;
+}
 .nav-link {
   padding-top: 3.8rem;
 }
